@@ -3,20 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevOps</title>
+    <title>DevOps Ukraine</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .redound-img {
+        width: 60%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        padding: 0.5em;
+        margin-bottom: 1em;
+      }
+    </style>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="logo.png" alt="logo" width="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Linux</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Terraform</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="places.html">Ansible</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Docker</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <body>
-      <div class="container text-center">
+      <div class="container text-center my-5">
         <div class="row">
-          <div class="col-lg-6 mx-auto">
-            <img src="Devops51.png" alt="foto" />
-            <h1>Dovhanych Ruslan</h1>
-            <p>
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <img class="redound-img" src="1.jpg" alt="foto" />
+            <h1 class="fw-light">DevOps Ukraine</h1>
+            <p class="lead text-muted">
               DevOps (an acronym for development & operations) is a methodology
               for automating the technological processes of building,
               configuring and deploying software. The methodology involves the
@@ -25,7 +70,20 @@
               their technological processes into each other to ensure the high
               quality of the software product.
             </p>
-            <button>Rezume</button>
+            <a
+              href="https://dakris.com.ua/"
+              target="_blank"
+              class="btn btn-outline-danger"
+            >
+              My Website
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCmQKgqKKB0XH69u6GvrTHzQ"
+              target="_blank"
+              class="btn btn-outline-danger"
+            >
+              My YouTube channel
+            </a>
           </div>
         </div>
       </div>
